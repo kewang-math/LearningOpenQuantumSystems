@@ -6,5 +6,5 @@ For example, for exp 25.4
   * Objective function value \phi and gradient: gradPhilsq2.m
 * Initial Guess of \theta: genTheta.m
   * generate theta based on the distribution: gen_theta.m
-* 
+* Draw Graphs based on the optimization outputs: Graphs.m
   
