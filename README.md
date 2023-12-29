@@ -44,5 +44,7 @@ For Fig2: Exp 19, to check the difference between first order and second order E
   * First Order Euler: semiEuler.m
     * theta2tensor.m
   * Second Order Euler: gen_mea_data1.m
+  * Generate theta: genTheta.m
+    *gen_theta.m
 
   
