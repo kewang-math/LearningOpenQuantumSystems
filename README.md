@@ -47,4 +47,17 @@ For Fig2: Exp 19, to check the difference between first order and second order E
   * Generate theta: genTheta.m
     *gen_theta.m
 
+For Fig4 exp28.1, there are experiments for different initial guess. 
+* Learning algorithm: main2_runfmin.m -> genManyA.m
+  * Optimization: runfminunc.m
+  * Exact Solution: gen_mea_data1.m ->
+  * Objective function value \phi and gradient: gradPhilsq1.m
+    * number of 1-local observables: 19
+* Initial Guess of \theta: genTheta.m
+  * generate theta based on the distribution: gen_theta.m -> thetas_further.mat
+* Generate initial density operator and observables: gen_rho.m, genManyA.m
+* Separate \theta to Hamiltonian part and dissipative part: theta2tensor.m
+  * recover it: theta2vector.m
+* Draw Graphs based on the optimization outputs: Graphs.m
+Other linear numerical experiment codes follow the same scheme such as exp30.3, 30.4, 30.6.1.
   
